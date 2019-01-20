@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.19)  19 JAN 2019 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.19)  19 JAN 2019 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,21 +1289,21 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `"Estadística III.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./Estadística III.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `"Estadística III".out' has not changed.
 (rerunfilecheck)             Checksum: CF3E9C6933F891A975749B320C3B57EC;188.
  ) 
 Here is how much of TeX's memory you used:
  21186 strings out of 492982
  409058 string characters out of 6134896
- 491137 words of memory out of 5000000
+ 492137 words of memory out of 5000000
  24262 multiletter control sequences out of 15000+600000
  10989 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1318,7 +1318,7 @@ onts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on "Estadística III.pdf" (5 pages, 87186 bytes).
+Output written on "Estadística III.pdf" (5 pages, 87887 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
