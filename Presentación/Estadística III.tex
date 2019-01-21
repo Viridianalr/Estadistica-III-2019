@@ -24,12 +24,25 @@ Extender los conocimientos sobre inferencia a el caso en el que el tamaño de la
 \end{frame}
 \subsection{Estimación Puntual}
 \begin{frame}{Estimación Puntual}
-
-sdd
+\textbf{Consistencia}\\
+Un estimador es \textit{consistente} si la sucesión de estadísticos $W_n$ converge en probabilidad al parametro que estima, es decir que para todo $\varepsilon>0$ $$\lim_{n\rightarrow \infty}\Pr_{\theta}(|W_n-\theta|<\varepsilon)=1$$
+Notemos que $\Pr_{\theta}$ es una medida de probabilidad que depende de $\theta$ 
 \end{frame}
 \appendix
 \begin{frame}{Apendice A} 
 $X_n$ converge en \textbf{distribución} a $X$ si para todo $x$. $$\lim_{n\rightarrow \infty}\Pr(X_n\le x)=\Pr(X\le x)$$ $X_n$ converge en \textbf{probabilidad} a $X$ si para cada $\varepsilon>0$ $$\lim_{n\rightarrow \infty}\Pr(|X_n-X|>\varepsilon) =0$$
 $X_n$ converge a $X$ \textbf{casi seguramente} si $$\Pr(\lim_{n\rightarrow \infty}|X_n-X|=0)=1$$
+\end{frame}
+\begin{frame}
+\textbf{Teoréma de Slutsky}\\
+Si $X_n\rightarrow X$ en distribución y $Y_n\rightarrow c$ en probabilidad. Entonces 
+\begin{itemize}
+\item $Y_n X_n\rightarrow cX$ en distribución
+\item $X_n+Y_n\rightarrow X+c$ en distribución.
+
+\end{itemize}
+
+\textbf{Metódo Delta}\\
+Sea $Y_n$ una sucesión de variables aleatorias que satisface $\sqrt{n}(Y_n-\theta)\rightarrow \cN (0,\sigma^2)$ en distribución. Para una función $g$ y una valor $\theta$ tal que $g'(\theta)\neq 0$ se tiene que: $$\sqrt{n}(g(Y_n)-g(\theta))\rightarrow \cN(0,\sigma^2 g'(\theta)^2)$$
 \end{frame}
 \end{document}
