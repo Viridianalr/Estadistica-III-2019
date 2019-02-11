@@ -11,18 +11,20 @@
 \headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Estimaci\IeC {\'o}n Puntual}}
 \headcommand {\slideentry {1}{1}{1}{4/4}{Estimaci\IeC {\'o}n Puntual}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\gdef \insertmainframenumber {4}}
-\headcommand {\partentry {Ap\'{e}ndice}{1}}
-\headcommand {\beamer@partpages {1}{4}}
-\headcommand {\beamer@sectionpages {1}{4}}
-\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\beamer@appendixpages {5}}
-\headcommand {\slideentry {1}{0}{2}{5/5}{}{1}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{Estimaci\IeC {\'o}n Puntual}{0}}
 \headcommand {\beamer@framepages {5}{5}}
+\headcommand {\gdef \insertmainframenumber {5}}
+\headcommand {\partentry {Ap\'{e}ndice}{1}}
+\headcommand {\beamer@partpages {1}{5}}
+\headcommand {\beamer@sectionpages {1}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@appendixpages {6}}
 \headcommand {\slideentry {1}{0}{3}{6/6}{}{1}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@partpages {5}{6}}
-\headcommand {\beamer@subsectionpages {5}{6}}
-\headcommand {\beamer@sectionpages {5}{6}}
-\headcommand {\beamer@documentpages {6}}
-\headcommand {\gdef \inserttotalframenumber {6}}
+\headcommand {\slideentry {1}{0}{4}{7/7}{}{1}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@partpages {6}{7}}
+\headcommand {\beamer@subsectionpages {6}{7}}
+\headcommand {\beamer@sectionpages {6}{7}}
+\headcommand {\beamer@documentpages {7}}
+\headcommand {\gdef \inserttotalframenumber {7}}

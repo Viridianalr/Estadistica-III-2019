@@ -28,6 +28,10 @@ Extender los conocimientos sobre inferencia a el caso en el que el tamaño de la
 Un estimador es \textit{consistente} si la sucesión de estadísticos $W_n$ converge en probabilidad al parametro que estima, es decir que para todo $\varepsilon>0$ $$\lim_{n\rightarrow \infty}\Pr_{\theta}(|W_n-\theta|<\varepsilon)=1$$
 Notemos que $\Pr_{\theta}$ es una medida de probabilidad que depende de $\theta$ 
 \end{frame}
+\begin{frame}
+Debido a la desigualdad de Chevychev: $$\Pr(|W_n-\theta|\geq \varepsilon)\le \frac{\Exp(W_n-\theta)^2}{\epsilon^2}$$
+Nuestro problema para e 
+\end{frame}
 \appendix
 \begin{frame}{Apendice A} 
 $X_n$ converge en \textbf{distribución} a $X$ si para todo $x$. $$\lim_{n\rightarrow \infty}\Pr(X_n\le x)=\Pr(X\le x)$$ $X_n$ converge en \textbf{probabilidad} a $X$ si para cada $\varepsilon>0$ $$\lim_{n\rightarrow \infty}\Pr(|X_n-X|>\varepsilon) =0$$
