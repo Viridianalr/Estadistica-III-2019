@@ -1,0 +1,36 @@
+\documentclass[11pt,spanish]{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amssymb,hyperref}
+\title{Estadística III: Métodos asintóticos de inferencia}
+\author{Alejandro López Hernández}
+\begin{document}
+\maketitle
+\setlength\parindent{0pt}
+\textbf{E1} Leer el capitulo 10 de G. Casella, Roger L. Berger, Statistical Inference\cite{Casella}. \\\\
+\textbf{Estimacíon Puntual} \\
+\textbf{E2} Sea $X_1,...,X_n\sim\frac{\beta\alpha^\beta}{x^{\beta+1}}1_{[\alpha,\infty)}$ con $\alpha$ conocida, calcula la varianza asintotica del extimador máximo verosimil.  \\
+\textbf{E3} Supongamos que $X_1,X_2,...,X_n\sim\text{Bernoulli}(p)$, si $\hat{p}$ es el estimador de máxima verosimilitud de $p$, calcula la varianza de $\hat{p}(1-\hat{p})$ y usa el método delta para cálcular la varianza asintotica y compara ambas. \\
+\textbf{E4} Sea $X_1,...,X_n\sim \text{Uniforme}(0,\theta)$ y $\hat\theta_n=\max\{X_1,...,X_n\}$ prueba que $\hat\theta_n$ es un estimador consistente de $\theta$\\
+\textbf{E5} Sea $X_1,...,X_n\sim f_\theta (x)$ con $f_\theta (x)=\frac{1}{2}(1+\theta x)$ con $x,\theta \in (-1,1)$. Encuentra un estimador consiste para $\theta$ \\
+\textbf{E6} Sea $X_1,...,X_n\sim \mathcal{N}(0,\sigma^2)$ \\
+\hspace*{6mm} a) Muestra que $T_n=\frac{k\sum |X_i|}{n}$ es un estimador consistente de $\sigma$ si y solo si $k=\sqrt{\pi/2}$\\
+\hspace*{6mm} b) Calcula el ARE de $T_n$ con respecto al máximo verosimil de $\sigma$\\\\
+\textbf{Pruebas de Hipótesis}\\
+\textbf{E7} Para la prueba de hipótesis $H_0:p=p_0$ contra $H_1:p\neq p_0$ con un modelo paramétrico $\text{Bernoulli}(p)$. Calcula $-2\log{\lambda(X)}$ y establece la región de rechazo de nivel $\alpha$ asumiendo la convergencia de $-2\log{\lambda(X)}$.\\
+\textbf{E8} Sea $X_1,...,X_n\sim \mathcal{N}(0,\sigma^2)$\\
+\hspace*{6mm} a) Si $\mu$ es desconocido y $\sigma$ conocido encuentra un estadístico de Wald para probar $H_0:\mu=\mu_0$\\
+\hspace*{6mm} b) Si $\mu$ y $\sigma$ son desconocidos encuentra un estadístico de Wald para probar $H_0:\mu=\mu_0$\\
+\hspace*{6mm} c) Si $\mu$ es conocido y $\sigma$ desconocido encuentra un estadístico de Wald para probar $H_0:\sigma=\sigma_0$
+\\
+\hspace*{6mm} d) Si $\mu$ y $\sigma$ son desconocidos encuentra un estadístico de Wald para probar $H_0:\sigma=\sigma_0$\\
+\textbf{E9} Sea $X_1,...,X_n\sim \text{Gamma}(\alpha,\beta)$ con $\alpha$ conocido, encuentra el estadístico de score para probar $H_0:\beta=\beta_0$. \\
+\textbf{E10} Sea $X_1,...,X_n\sim \text{Geométrica}(p)$ encuentra una estadístico de Wald para probar  $H_0:p=p_0$\\
+\textbf{E11} Sea $X_1,...,X_n\sim \text{Exp}(\theta)$ encuentra una estadístico de Wald para probar  $H_0:\theta<\theta_0$ y encuentra la region de rechazo.
+\begin{thebibliography}{9}
+\bibitem{Casella} 
+George Casella asnd Roger L. Berger, \textit{Statistical Inference}. 
+Second Edition, 2002.
+\end{thebibliography}
+\end{document}
